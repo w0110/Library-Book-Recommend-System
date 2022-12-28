@@ -278,7 +278,7 @@
     },
     methods: {
       getDatas() {
-        const path = 'http://127.0.0.1:5000/data';
+        const path = 'https://library-book-recommend-system-backend.azurewebsites.net/data';
         axios.get(path)
           .then((res) => {
             this.datas = res.data.datas;
