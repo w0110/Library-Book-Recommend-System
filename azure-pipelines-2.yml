@@ -36,6 +36,7 @@ stages:
       displayName: 'Install Node.js'
 
     - script: |
+        cd ./frontend/
         npm install
         npm install -g vue-cli
         npm install --save axios
